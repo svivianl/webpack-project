@@ -17,9 +17,10 @@ Create React app manually.
 - .eslintrc.json
 ```
 
-a. add title
-b. create a div which will be the entry point for the React app
-c. create a script tag pointing to the source `bundle.js`
+- in the file `dist/index.html`
+  a. add title
+  b. create a div which will be the entry point for the React app
+  c. create a script tag pointing to the source `bundle.js`
 
 3. Install Webpack
    Run `npm i --save-dev webpack webpack-dev-server webpack-cli`
