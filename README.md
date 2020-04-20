@@ -73,7 +73,7 @@ Create React app manually.
    }
    ```
 
-   Run `npm i --save-dev babel-preset-react`
+   Run `npm i --save-dev @babel/preset-react`
 
 8. Add Babel in `webpack.config.js`
 
@@ -104,7 +104,3 @@ Run `npm i --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-js
 `eslint-plugin-jsx-a11y` for accessibility
 
 Config `.eslintrc.json` file
-
-```
-
-```
