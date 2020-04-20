@@ -73,7 +73,7 @@ Create React app manually.
    }
    ```
 
-```
+   Run `npm i --save-dev babel-preset-react`
 
 8. Add Babel in `webpack.config.js`
 
@@ -81,27 +81,30 @@ Create React app manually.
 
 10. Install `eslint` and `eslint-loader`
 
-  Run `npm i --save-dev eslint eslint-loader`
+Run `npm i --save-dev eslint eslint-loader`
 
-  Config `.eslintrc.json` file
+Config `.eslintrc.json` file
 
 11. Add `eslint-loader` in `webpack.config.js`
 
 12. Install `babel-eslint`
 
-  Run `npm i --save-dev babel-eslint`
+Run `npm i --save-dev babel-eslint`
 
-  Config `.eslintrc.json` file
+Config `.eslintrc.json` file
 
 13. Install `eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
 
-  Run `npm i --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
+Run `npm i --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y`
 
-  `eslint-config-airbnb` for airbnb configurations
+`eslint-config-airbnb` for airbnb configurations
 
-  `eslint-plugin-import` for import and export
+`eslint-plugin-import` for import and export
 
-  `eslint-plugin-jsx-a11y` for accessibility
+`eslint-plugin-jsx-a11y` for accessibility
 
-  Config `.eslintrc.json` file
+Config `.eslintrc.json` file
+
+```
+
 ```
