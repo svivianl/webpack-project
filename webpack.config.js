@@ -9,13 +9,13 @@ module.exports = {
     contentBase: "./dist",
   },
   module: {
-    rules:[
+    rules: [
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
-      use: ['babel-loader']
-    ]
+      use: ["babel-loader"],
+    ],
   },
-  resolve:{
-    extensions: ['.js', '.jsx']
-  }
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
 };
