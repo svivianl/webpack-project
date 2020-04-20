@@ -52,7 +52,7 @@ Create React app manually.
 
 6. Install Babel
 
-   Run `npm i --save-dev babel-core babel-loader @babel/preset-env`
+   Run `npm i --save-dev @babel/core babel-loader @babel/preset-env`
 
    `babel-core` is the main babel package
 
