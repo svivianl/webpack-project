@@ -46,6 +46,10 @@ Create React app manually.
 
 5. Config `webpack.config.js` file
 
+   Export the entry and output points.
+
+   Export the development server which tells where to serve the content from.
+
 6. Install Babel
 
    Run `npm i --save-dev babel-core babel-loader babel-present-env`
